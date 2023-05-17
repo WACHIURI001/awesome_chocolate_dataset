@@ -5,7 +5,7 @@ The data set contains 4 tables each with information and observations about Sale
 
 Let's try to answer some business questions
 
-```
+```sql
 /* details of shipments (sales) where amounts are > 2,000 and boxes are <100?*/
 select * from sales
 where amount > 2000 and boxes <1000;
